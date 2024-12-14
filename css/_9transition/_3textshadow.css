@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ .button
+ {
+    width: 200px;
+    height: 200px;
+    background: url('https://i.pinimg.com/originals/01/30/93/0130936b2eea1b178b041251c974c013.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+ }
+
+  .name{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgba(233, 67, 11, 0.895);
+    text-shadow: 2px 2px 2px orange;   
+      
+  }
+ 
+  .button{
+    position: absolute;
+     top: 35%;
+     left: 35%;
+     transform: translate(-35% -35%);
+     border-radius: 30px;
+     width: 300px;
+     transition:   5sec;
+
+     
+
+  }
+
+  .button:hover{
+    transform: rotate(45deg) scale(1.5);
+     
+  }
+
+   .name:hover{
+    color: blueviolet;
+   }
+   .button:hover{
+    background-color: bisque;
+   }

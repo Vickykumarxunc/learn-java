@@ -1,0 +1,25 @@
+li{
+    font-size: 30px;
+
+}
+
+.html{
+    color: red;
+}
+.css{
+    color: blue;
+}
+.js{
+color: yellow;
+}
+.react{
+    color: skyblue;
+}
+ul{
+    background-color: aqua  !important;
+}
+ul{
+    background-color: azure;
+}
+
+/**? important ko sirf important hi over ride kar sakta hai . */

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: aqua;
+    /* padding: 10px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 30px;
+
+    border: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    border: 15px solid orange;
+    border-radius: 15px;
+    border: 10px dotted pink;
+    border: 10px dashed ;
+
+}
+p{
+    background-color: beige;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+
+}

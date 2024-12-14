@@ -1,0 +1,80 @@
+
+/** position relative dene se hamare pas 4 properties ka access hota hai . top bottom left right  */
+/** top bottom me se ek time par ek kaam karta hai same as left right */ 
+
+/** static ke case me no change */ 
+
+/** position absolute dene se height kam ho jati hai .
+
+/** absolute ke case me bhi hum top bottom left right use kar sakte hai :  */
+/* div{
+    position: relative;
+    background-color: aquamarine;
+     top: 5px;
+     bottom: 5px;
+     right: 5px;
+     left: 5px;
+     inset: 100px;
+     
+     
+}    */
+
+/** jab mai parent ko relative deta hoon or child ko absolute to vo apane parent ke according change hota hai .*/
+ul
+{
+    /* position: relative; */
+    
+    background-color: blanchedalmond;
+    margin-top: 50px;
+
+    height: 300px;
+    overflow-y:scroll;
+
+}
+.css{
+     
+    background-color: aqua;
+     list-style: none;
+    /* position: absolute; */
+     top: 56px;
+     left: 5px;
+     right: 5px;
+     
+      
+     
+       
+      /* inset: 10px; */
+      
+}
+
+/** position fixed se element apane parent se bahar aa jata hai .
+** fixed bhi absolute ki trh hi kaam karta hai . 
+** fixed always viewport se attached hota hai  **/
+
+.js{
+    position: fixed;
+    background-color: orange;
+    top: 10px;
+    left: 10px;
+     right: 10px; 
+    /* bottom: 10px; */ 
+
+}
+
+/** sticky static  ki trh kaam karta hia ( no change ) 
+//** stick me kuch change tob hoga jab hum uske parent ko kuch height dete hai .
+//** aur us par scroll bar hona cahiye . 
+//** lekin apane parent se bahar nahi jayega >  */
+.html
+{
+    /* position:sticky; */
+    background-color: burlywood;
+    top: 80px;
+
+}
+
+header{
+    position: sticky;
+    background-color: blueviolet;
+    top: 2px;
+}

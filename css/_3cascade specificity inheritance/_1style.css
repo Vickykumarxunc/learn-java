@@ -1,0 +1,80 @@
+/**? classid ki specificty class or id se bhi jyada hoti hai */
+
+li#html.html{
+    color: chartreuse;
+}
+
+li#html#html#html#html#html{ /**? is tarike se hum specificity bada sakte hai . */
+    color: cyan;
+}
+
+h1{ 
+    color: purple;
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    
+}
+.p1{
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 30px;
+}
+.p2{
+    color: darkcyan;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+.html{
+    color: red;
+}
+.css{
+    color: blue;
+}
+.js{
+    color: yellow;
+}
+.react{
+    color: skyblue;
+}
+li{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.p3{
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2;
+    word-spacing: 2;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+
+}
+ 
+
+/**? cascade - > jab hum html par css likhte hai to vo 
+/**? top to bottom apply hoti hai . top ki importance kam hoti hai 
+/*? bottom ki importance jyada hoti hai .*/
+
+.para1{
+    color: blue;
+}
+ 
+
+/**? specificity - > har ek element ki specificity hoti hai . 
+/**? jiski specificity jyada hoti hai uska style phle apply hoga . vo matter nahi karta ki vo upar likha hai ya niche 
+/**? class spec. > element spec. 
+/**? specificity cascade rule ko override kar deta hai .  */
+
+#para2{
+    color: deeppink;
+}
+
+/**? id ki specificity class se bhi jyada hoti hai . */

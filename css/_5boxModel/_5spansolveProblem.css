@@ -1,0 +1,52 @@
+
+/**> how to set the height and width of the inline level element */
+/**> we use the disply block property */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* .html{
+     display: inline;
+     display: block;
+     width: 200px;
+     height: 100px;
+     background-color: blanchedalmond;
+     border-radius: 10px;
+     padding: 20px;
+     margin: 30px;
+     outline: 3px solid green;
+     border: 5px solid grey;
+} */
+
+span{
+    display: inline-block;
+     max-width: 200px;
+     height: 100px;
+     padding: 40px;
+     background-color: aqua;
+     margin: 20px;
+      border: 5px solid rgb(142, 83, 25);
+      outline: 3px dotted pink;
+       
+    
+}
+
+.image{
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 50px;
+    box-shadow:  -5px 1px 3px 4px goldenrod;
+    
+} 
+
+.image1{
+    margin-left: 40%;
+    margin-top: 30px;
+    filter: drop-shadow(0 0 10px green);
+    filter: drop-shadow(0px 0px 20px rgb(5, 108, 142))
+}
+   /**> image tag is a replacebel  inline element */
+ 

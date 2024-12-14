@@ -1,0 +1,61 @@
+/**> percentage -> percentage apane parent  ke according width or height manage karta hai 
+**> parent dependent unit . height pexel me kaam karta hai .
+**> agar hame height ko percentage me dena hai to uske parent ko height pexel me dena hoga.  
+**> padding bhi parent se calculate hokar aati hai . parent ki width se padding calculate hokar aa rahi hai > ;
+**> isi liye hum padding ko kabhi perentage me nahi dete  
+**> same as margin : */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.box{
+    background-color: aquamarine;
+    /* max-width: 500px; */
+    width: 100%;
+}
+
+.section
+{
+    background-color: rgb(251, 182, 93);
+    width: 80%;
+     
+    overflow: hidden;
+    padding: 30px;
+    padding: 10%;
+     margin: 50px;
+}
+.sec{
+    background-color:blueviolet;
+    width: 100%;
+    width: 100%;
+    padding: 50px;
+    margin-right: 80px;
+    
+} 
+
+ .sec2{
+    background-color: aquamarine;
+    width: 70%;
+    padding: 10%;
+     margin: 10%;
+ }
+
+ .div1{
+    background-color: blueviolet;
+    padding: 10%;
+   
+     
+ }
+ .div2{
+    background-color: chartreuse;
+    padding: 10%;
+    margin: 10%;
+    text-align: center;
+    font-size: 110;
+    font-style: italic;
+    font-weight: bolder;
+ }

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+section{
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 50vh;
+    margin: 10vw;
+    
+}
+.box{
+    background-color: aquamarine;
+    width: 50%;
+    height: 100%;
+    padding: 10vh;
+    margin: 12vw;
+    
+
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.box1
+{
+    width: 100px;
+    height: 100px;
+     background-color: rgba(127, 255, 212);
+     /* opacity: .5; */
+     /* transform: scale(1); */
+     /* transform: scaleX(6);
+     transform: scaleY(9); */
+     /* transform-origin: 0 0; */
+     /* transform: rotate(-45deg);
+     transform: rotate(45deg); */
+ 
+     /* transform: translateX(100px);
+     transform: translateY(100px);
+     transform: translateZ(300px); */
+     /* transform: translateY(100%); */
+     /* transform: translateX(100%); x me width or y me height  */
+
+
+     /** how to center the div */
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50% -50%);
+
+     box-shadow: 3px -4px 0px 100px greenyellow;
+      
+    
+     
+
+
+    
+}
+ 
+ 

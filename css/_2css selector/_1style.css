@@ -1,0 +1,107 @@
+ 
+ /*? class selector -> . */
+ 
+ h1{
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    color: rgb(9, 154, 106);
+    font-size: 20px;
+    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+  }
+  .html{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .css{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .javascript{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .react{
+    color: skyblue;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .web{
+    color: rgb(186, 127, 19);
+    text-transform: uppercase;
+  }
+
+  /*? id selector -> # */
+
+
+  #html{
+    color: red;
+  }
+  #css{
+    color: blue;
+  }
+  #js{
+    color: yellow;
+  }
+  #react{
+    color: skyblue;
+  }
+
+a:hover{
+    color: black;
+    background-color: aqua;
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**? attribute selector  -> [] */
+ [attribute]{
+    color: rgb(11, 92, 92);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1.5;
+ }
+
+ /**? descendent selector - -> path name tag name  , parent ke ander se child ko kaishe select kare :  */
+ ul p{
+    background-color: aqua;
+ }
+ ul h3{
+    color: green;
+    font-weight: bold;
+ }
+
+ /**?  pseudo selector  1. hover */
+ h1:hover{
+    color: cyan;
+    text-decoration-style: dotted;
+    text-decoration-color: chartreuse;
+ }
+ .html:hover{
+    background-color: black;
+     
+ }
+ .css:hover{
+    background-color: black;
+ }
+ .javascript:hover{
+    background-color: black;
+ }
+ .react:hover{
+    background-color: black;
+ }
+ ul h3:hover{
+    background-color: yellow;
+ }

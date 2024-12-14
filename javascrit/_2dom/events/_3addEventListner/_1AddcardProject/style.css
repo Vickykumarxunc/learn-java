@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color:rgba(255, 255, 255, 0.1);
+    
+}
+.container .card{
+    width: 80px;
+    height: 90px;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 86, 86);
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #5D3FD3;
+}
+.card:hover{
+    cursor: pointer;
+}
+.container .card1{
+    background: linear-gradient(135deg, #d9a7c7 0%, #fffcdc 100%);
+    color: cyan;
+    font-weight: bolder;
+    font-size: 60px;
+}
+ 
+ 

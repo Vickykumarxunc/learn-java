@@ -1,0 +1,44 @@
+h1{
+    color: purple;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:pink;
+
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+
+    text-decoration-thickness: 5px;
+
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: solid;
+    text-decoration-style: wavy;
+
+    text-decoration-color: aqua;
+    text-align: center;
+
+    font-style: italic;
+    font-style: oblique;
+    
+    
+    
+
+    
+}
+p{
+    color: chartreuse;
+    font-size: 25px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+
+}
+ 

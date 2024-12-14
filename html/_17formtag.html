@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag </title>
+</head>
+<body>
+    <h1>form tag</h1>
+     <form>
+        <div>
+            <label for="username">User name</label>
+            <input type="text" id="username" placeholder="enter your name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="enter your email" name="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="textarea">Message</label>
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="write something ..."></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="passward">Passward</label>
+            <input type="password" id="passward" placeholder="1234567890">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" max="9" min="0">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender">male
+            <input type="radio" value="female" name="gender">female
+        </div>
+
+        <br>
+
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" value="music">music
+            <input type="checkbox" value="game">game
+            <input type="checkbox" value="coding">coding 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="country">INDIA</option>
+                <option value="country">London</option>
+                 <option value="country">UAE</option>
+                <option value="country">Canada</option>
+                <option value="country">QATAR</option>
+                <option value="country">RUSSIA</option>
+                <option value="country">PARIS</option>
+                <option value="country">ROME</option>
+                <option value="country">ITALY</option>
+                <option value="country">FRANCE</option>
+                <option value="country">GERMANY</option>
+                <option value="country">AUSTRALIA</option>
+                <option value="country">POLAND</option>
+                <option value="country">FINLAND</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="country">Select a state : </label>
+            <input type="text" id="country" name="country"  list="countries">
+            <datalist id="countries">
+                <option value="USA"></option>
+                <option value="canada"></option>
+                <option value="india"></option>
+                <option value="australia"></option>
+
+            </datalist>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="file">Select file</label>
+            <input type="file" name="file">
+        </div>
+
+        <br>
+
+         <input type="submit" value="submit">
+
+         <br><br>
+
+
+         <button type="submit">Submit</button>
+         
+     </form>
+
+      
+
+    
+</body>
+</html>
